@@ -6,7 +6,7 @@
 
 GRIDSS a module software suite containing tools useful for the detection genomic rearrangements. GRIDSS includes a genome-wide break-end assembler, as well as a structural variation caller for Illumina sequencing data. GRIDSS calls variants based on alignment-guided positional de Bruijn graph genome-wide break-end assembly, split read, and read pair evidence.
 
-GRIDSS makes extensive use of the [standard tags defined by SAM specifications](http://samtools.github.io/hts-specs/SAMtags.pdf). Due to the modular desing, any step (such as split read identification) can be replaced by another implementation that also outputs using the standard tags. It is hoped that GRIDSS can serve as an exemplar modular structural variant pipeline designed for interoperability with other tools.
+GRIDSS makes extensive use of the [standard tags defined by SAM specifications](http://samtools.github.io/hts-specs/SAMtags.pdf). Due to the modular design, any step (such as split read identification) can be replaced by another implementation that also outputs using the standard tags. It is hoped that GRIDSS can serve as an exemplar modular structural variant pipeline designed for interoperability with other tools.
 
 If you have any trouble running GRIDSS, please raise an issue using the Issues tab above. Based on feedback from users, a user guide will be produced outlining common workflows, pitfalls, and use cases.
 
